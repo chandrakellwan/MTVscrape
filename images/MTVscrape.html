@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en-us" class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./MTVscrape_files/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="./MTVscrape_files/style.css">
+
+    <title>MTVscrape</title>
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+    <nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="http://localhost:3000/#">
+        <img id="brand-image" src="./MTVscrape_files/original-mtv-logo.jpg">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">☰</span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                
+            </li>
+            <li>
+                <button type="button" class="btn btn-dark" id="scrapeButton" data-toggle="modal" data-target="#confirmScrape">Scrape</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    
+    <div class="card-deck">
+        <!--where the articles wil populate-->
+        <div class="row">
+
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+      		          
+      		                  Emmys 2017 Winners: See The Full List 
+      		          
+      		        </h4>
+                        <p class="card-text">
+      		        
+      		          
+      		                  Emmys 2017 Winners: See The Full List 
+      		          
+      		        
+      		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036486/emmys-2017-winners-full-list/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade546f">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Mariah Carey Throws It Way Back To ‘Honey’ At VH1’s Hip-Hop Honors
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Mariah Carey Throws It Way Back To ‘Honey’ At VH1’s Hip-Hop Honors
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036786/mariah-carey-honey-vh1-hip-hop-honors/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5474">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            The Emmys Cut Off Sterling K. Brown's Heartfelt Speech So He Finally Finished It
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            The Emmys Cut Off Sterling K. Brown's Heartfelt Speech So He Finally Finished It
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036704/sterling-k-brown-emmys-acceptance-speech/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5479">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Teen Wolf War: Can Scott's Pack Survive With No More Casualties?
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Teen Wolf War: Can Scott's Pack Survive With No More Casualties?
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3034078/teen-wolf-war-scott-pack-survive/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade547e">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Chance The Rapper Threw A Dance Party With Elmo, Elsa, And A Minion For His Daughter's Birthday
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Chance The Rapper Threw A Dance Party With Elmo, Elsa, And A Minion For His Daughter's Birthday
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036502/chance-the-rapper-elmo-birthday-party/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5483">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+      		          
+      		                  Lady Gaga Cancels Joanne Tour Dates Due To 'Trauma And Chronic Pain'
+      		          
+      		        </h4>
+                        <p class="card-text">
+      		        
+      		          
+      		                  Lady Gaga Cancels Joanne Tour Dates Due To 'Trauma And Chronic Pain'
+      		          
+      		        
+      		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036663/lady-gaga-cancels-tour-joanna-europe/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5470">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Jay-Z Shouted Out Colin Kaepernick With A Performance Of 'The Story of O.J.'
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Jay-Z Shouted Out Colin Kaepernick With A Performance Of 'The Story of O.J.'
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036416/jay-z-colin-kaepernick/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5488">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+      		          
+      		                  12 Emmy Stars Who Embraced Their Inner Princess On The Red Carpet
+      		          
+      		        </h4>
+                        <p class="card-text">
+      		        
+      		          
+      		                  12 Emmy Stars Who Embraced Their Inner Princess On The Red Carpet
+      		          
+      		        
+      		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036698/emmys-princess-best-dressed-2017/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5471">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Which NSYNC Member Is About To Invade 90's House?
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Which NSYNC Member Is About To Invade 90's House?
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036733/90s-house-lance-bass-nsync-joey-fatone/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5477">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Avicii And Rita Ora's New Video Basically Revives The Mannequin Challenge
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Avicii And Rita Ora's New Video Basically Revives The Mannequin Challenge
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036680/avicii-rita-ora-lonely-together-music-video/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5475">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            All Inked Up: Maci Bookout Is Showing Off Her New Tattoo Sleeve
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            All Inked Up: Maci Bookout Is Showing Off Her New Tattoo Sleeve
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036349/maci-bookout-tattoos-sleeve-teen-mom-og/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade547c">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Beyoncé Visited Ben Platt And The Dear Evan Hansen Cast And They May Never Recover
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Beyoncé Visited Ben Platt And The Dear Evan Hansen Cast And They May Never Recover
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036538/beyonce-ben-platt-dear-evan-hansen/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5481">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Donald Glover Says 14-Year-Olds Are Bullying Him To Work With Chance The Rapper Again
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Donald Glover Says 14-Year-Olds Are Bullying Him To Work With Chance The Rapper Again
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036675/donald-glover-chance-the-rapper-collab-emmys/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade547a">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Harry Styles's Favorite Song On His Album Is His 'Most Personal' One
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Harry Styles's Favorite Song On His Album Is His 'Most Personal' One
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036441/harry-styles-favorite-song/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5486">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Millie Bobby Brown Has A Cinderella Moment On The Emmys Red Carpet
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Millie Bobby Brown Has A Cinderella Moment On The Emmys Red Carpet
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036551/millie-bobby-brown-2017-emmys-red-carpet/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade547f">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Dylan O'Brien
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Dylan O'Brien
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/podcasts/happy-sad-confused/dylan-o-brien/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade548b">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Demi Lovato's Birthday Note To 'Absolute Best Friend' Nick Jonas Is Super Sweet
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Demi Lovato's Birthday Note To 'Absolute Best Friend' Nick Jonas Is Super Sweet
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036489/happy-birthday-nick-jonas-demi-lovato/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5484">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+      		          
+      		                  Stephen Colbert Shocked Melissa McCarthy With Sean Spicer's Emmy Cameo
+      		          
+      		        </h4>
+                        <p class="card-text">
+      		        
+      		          
+      		                  Stephen Colbert Shocked Melissa McCarthy With Sean Spicer's Emmy Cameo
+      		          
+      		        
+      		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036578/stephen-colbert-sean-spicer-melissa-mccarthy-emmys/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5472">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Watch Lorde And Carly Rae Jepsen Join Bleachers For An Unforgettable MTV Unplugged Performance
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Watch Lorde And Carly Rae Jepsen Join Bleachers For An Unforgettable MTV Unplugged Performance
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036261/bleachers-lorde-carly-rae-jepsen-unplugged/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5489">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Nick Jonas Finds Love Underwater In His Beachy New Video
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Nick Jonas Finds Love Underwater In His Beachy New Video
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036763/nick-jonas-find-you-video/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5476">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+      		          
+      		                  Donald Glover Just Revealed That He's Going To Be A Dad Again!
+      		          
+      		        </h4>
+                        <p class="card-text">
+      		        
+      		          
+      		                  Donald Glover Just Revealed That He's Going To Be A Dad Again!
+      		          
+      		        
+      		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036614/donald-glover-baby-number-2/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5473">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Sam Smith's Heart-Wrenching New Video Proves It's So Hard To Say Goodbye
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Sam Smith's Heart-Wrenching New Video Proves It's So Hard To Say Goodbye
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036660/sam-smith-too-good-at-goodbyes-music-video/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade547b">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Chester Bennington's Light Lives On In Linkin Park's Emotional New Video
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Chester Bennington's Light Lives On In Linkin Park's Emotional New Video
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036728/linkin-park-chester-bennington-tribute-show/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5478">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            The Fourth Powerpuff Girl Has Been Revealed — And She's Ready To Kick Some Butt
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            The Fourth Powerpuff Girl Has Been Revealed — And She's Ready To Kick Some Butt
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036536/the-powerpuff-girls-new-sister-bliss/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5480">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            8 Emmy Moments That Will Make You Say 'Yo, I'm So Happy' Just Like Donald Glover
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            8 Emmy Moments That Will Make You Say 'Yo, I'm So Happy' Just Like Donald Glover
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036633/best-emmy-moments-2017/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade547d">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            The Stranger Things Cast Fits Right Into Your Fave Horror Movie Posters
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            The Stranger Things Cast Fits Right Into Your Fave Horror Movie Posters
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036461/stranger-things-horror-movie-posters/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5485">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Please Give Stranger Things' Caleb McLaughlin An Award For His Emmy Suit
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Please Give Stranger Things' Caleb McLaughlin An Award For His Emmy Suit
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036518/caleb-mclaughlin-stranger-things-emmy-red-carpet/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5482">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            Watch Taylor Swift Transform Into A Zombie For 'Look What You Made Me Do' Video
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            Watch Taylor Swift Transform Into A Zombie For 'Look What You Made Me Do' Video
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036367/taylor-swift-zombie-transformation-look-what-you-made-me-do-video/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade548a">Comment</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" id="articleCard">
+                <div class="card">
+                    <img class="card-img-top" src="./MTVscrape_files/undefined">
+                    <div class="card-block">
+                        <h4 class="card-title">
+    		                            It Continues To Justify Your Fear Of Clowns By Dominating The Box Office
+    		          
+    		        </h4>
+                        <p class="card-text">
+    		        
+    		                            It Continues To Justify Your Fear Of Clowns By Dominating The Box Office
+    		          
+    		        
+    		      </p>
+                        <a class="btn btn-info" href="http://www.mtv.com/news/3036427/it-box-office-mother-american-assassin/" id="linkButton">Full Article</a>
+                        <button id="commentButton" class="btn btn-info" data-toggle="modal" data-target="#comments" data_id="59c03d86c12db8ebbade5487">Comment</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--modal confirming you have scrape articles-->
+<div class="modal" id="confirmScrape" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Scrape Completed!</h4>
+            </div>
+            <div class="modal-body">
+               
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="dispalyArticles" href="/all" value="Refresh Page" onclick="window.location.reload()">View Articles</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--modal to add comments-->
+<div class="modal" id="comments" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" id="currentArticleTitle">
+
+
+            </div>
+
+            <div class="modal-body">
+                <div id="previousNote">
+                    <!--Where previous comment be display-->
+                </div>
+                <div class="form-group">
+                    <label for="exampleTextarea">Add your comment in the box below</label>
+                    <textarea class="form-control" id="userComment" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" data-dismiss="modal" id="saveNote" data_id="">Submit Comment</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./MTVscrape_files/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./MTVscrape_files/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="./MTVscrape_files/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="./MTVscrape_files/jquery.min.js"></script>
+    <script src="./MTVscrape_files/app.js"></script>
+
+
+
+
+</body></html>

@@ -1,0 +1,138 @@
+/* Background pattern from Subtle Patterns call Type*/
+
+#container{
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-image: url("../images/type/type_@2X.png");
+}
+
+.navbar-expand-lg {
+   background-color: black;
+    
+}
+
+.navbar-brand,
+.nav-link{
+    color: #ffffff;
+}
+
+.nav-link{
+    margin-left:10px;
+}
+
+#brand-image{
+    height: 120px;
+}
+
+#scrapeButton{
+ box-shadow: 7px -3px 5px deepskyblue;
+ color: black;
+ background-color: orange;
+ padding: 5px;
+ margin-top: 10px;
+ margin-left:10px;  
+}
+
+.modal {    
+  text-align: center;
+}
+
+a:hover{
+    color: black;
+}
+
+.btn-primary{
+    background-color: orange;
+}
+
+.navbar-toggler-icon{
+  padding-top: 3.5px;    
+  color: #ffffff;
+}
+
+.icon-bar{
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-toggle{
+    padding-bottom:25px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    border-color: #ffffff;
+}
+
+.nav-link{
+    margin-top:10px;
+}
+
+#noArticles{
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 483px;
+}
+
+.card{
+    border: 0px;
+}
+
+#articleCard{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    outline: 5px solid #222222;
+    background-color: #ffffff;
+}
+
+#originalArticleLink{
+    margin-right:5px;
+}
+
+#commentButton{
+    text-align: right;
+    background-color: orange;
+    margin-bottom: 10px;
+
+}
+#linkButton{
+    text-align: left;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+/*footer {
+   text-align: center;
+   background-color: #00BC8C; 
+   color: #000000;
+   border-top: 5px solid #1C1C1C; 
+   padding-top:7px;
+   padding-bottom:1px;
+}
+*/
+
+#divider{
+    padding-left:20px;
+    padding-right:20px;    
+}
+
+#source{
+  color: #000000;   
+}
+
+
+#notes{
+    text-align: left;
+    outline-style: groove;
+    outline-color: #00BC8C;
+    margin-top:10px;
+}
+
+.noteData{
+    padding: 5px;
+}
+
+
+
