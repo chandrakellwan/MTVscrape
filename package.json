@@ -1,5 +1,5 @@
 {
-  "name": "newtoscrape",
+  "name": "mtvscrape",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redpanda117/NewsToScrape.git"
+    "url": 
   },
-  "author": "tina nguyen",
+  "author": "chandrakellwan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redpanda117/NewsToScrape/issues"
+    "url": 
   },
-  "homepage": "https://github.com/redpanda117/NewsToScrape#readme",
+  "homepage": ,
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
