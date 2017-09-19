@@ -41,7 +41,7 @@ app.set("view engine", "handlebars");
 //mongoose localhost connection
 mongoose.connect("mongodb://localhost/mtvScrape");
 
-mongoose.connect("mongodb://heroku_36qch87t:6e9t74vm4jsdcnbsj0kefeg5h9@ds141514.mlab.com:41514/heroku_36qch87t")
+//mongoose.connect("mongodb://heroku_36qch87t:6e9t74vm4jsdcnbsj0kefeg5h9@ds141514.mlab.com:41514/heroku_36qch87t")
 var db = mongoose.connection;
 
 //show mongoose error
