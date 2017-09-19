@@ -25,7 +25,7 @@ var ArticleSchema = new Schema({
     image: {
         type: String,
         required: true,
-        unique: true
+       // unique: true
     },
     date: {
         type: Date,
