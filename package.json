@@ -1,5 +1,5 @@
 {
-  "name": "mtvscrape",
+  "name": "MTVscrape",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": 
+    "url": "git+https://github.com/chandrakellwan/MTVscrape.git"
   },
   "author": "chandrakellwan",
   "license": "ISC",
   "bugs": {
-    "url": 
+    "url": "https://github.com/chandrakellwan/MTVscrape/issues"
   },
-  "homepage": ,
+  "homepage": "https://github.com/chandrakellwan/MTVscrape#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
