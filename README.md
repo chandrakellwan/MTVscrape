@@ -1,6 +1,6 @@
 # MTVscrape
 
-MTVscrape is designed to pull articles from the MTV.com/news website. Once the articles are scraped, the user is able to access the full original article, leave a comment, or delete their existing comment. 
+MTVscrape is designed to pull(scrape) news articles from the MTV.com website. Once the articles are scraped, the user is able to access the full original article, leave a comment, or delete their existing comment. 
 
 This application utilizes Bootstrap, Mongoose, Cheerio, Express, Handlebars, Body-Parser, and Request.
 
