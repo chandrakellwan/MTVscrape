@@ -6,7 +6,8 @@ This application utilizes Bootstrap, Mongoose, Cheerio, Express, Handlebars, Bod
 
 App Link: https://protected-hamlet-36204.herokuapp.com/
 
-![mtvscrapepic](https://user-images.githubusercontent.com/25890329/32637810-fb0418e6-c589-11e7-81e3-4bc4c2c963dc.png) 
+![screen shot 2017-11-10 at 3 47 02 pm](https://user-images.githubusercontent.com/25890329/32678009-9c3613d2-c62e-11e7-9540-65d64f518496.png)
+
  
   
  
