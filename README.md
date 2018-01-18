@@ -2,7 +2,14 @@
 
 MTVscrape is designed to pull(scrape) news articles from the MTV.com website. Once the articles are scraped, the user is able to access the full original article, leave a comment, or delete their existing comment. 
 
-This application utilizes Bootstrap, Mongoose, Cheerio, Express, Handlebars, Body-Parser, and Request.
+This application utilizes: 
+<strong>Bootstrap</strong>
+<strong>Mongoose</strong>
+<strong>Cheerio</strong>
+<strong>Express</strong>
+<strong>Handlebars</strong>
+<strong>Body-Parser</strong>
+<strong>Request</strong>
 
 App Link: https://protected-hamlet-36204.herokuapp.com/
 
