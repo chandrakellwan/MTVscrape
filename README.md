@@ -10,7 +10,7 @@ This application utilizes:
  <li><strong>Handlebars</strong></li>
  <li><strong>Body-Parser</strong></li>
  <li><strong>Request</strong></li>
- 
+ <br>
 
 App Link: https://protected-hamlet-36204.herokuapp.com/
 
