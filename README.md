@@ -13,7 +13,7 @@ This application utilizes:
  <li><strong>Request</strong></li>
  <br>
 
-<-- App Link: https://protected-hamlet-36204.herokuapp.com -->
+<!-- App Link: https://protected-hamlet-36204.herokuapp.com -->
 
 ![screen shot 2017-11-10 at 3 47 02 pm](https://user-images.githubusercontent.com/25890329/32678009-9c3613d2-c62e-11e7-9540-65d64f518496.png)
 
